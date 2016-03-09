@@ -1,37 +1,27 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="66" inline="true" x="57" y="-23">
+  <block type="controls_repeat" id="1" inline="true" x="57" y="-23">
     <value name="TIMES">
-      <block type="math_number" id="73">
+      <block type="math_number" id="2">
         <field name="NUM">4</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="controls_repeat" id="51" inline="true">
+      <block type="controls_repeat" id="20" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="35">
-            <field name="NUM">3</field>
+          <block type="math_number" id="13">
+            <field name="NUM">37480</field>
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_forward" id="20">
-            <next>
-              <block type="robot_delay" id="44" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="58">
-                    <field name="NUM">1090</field>
-                  </block>
-                </value>
-              </block>
-            </next>
-          </block>
+          <block type="movement_forward" id="37"></block>
         </statement>
         <next>
-          <block type="movement_right" id="1">
+          <block type="movement_right" id="4">
             <next>
-              <block type="robot_delay" id="2" inline="true">
+              <block type="robot_delay" id="5" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="3">
-                    <field name="NUM">1300</field>
+                  <block type="math_number" id="6">
+                    <field name="NUM">1280</field>
                   </block>
                 </value>
               </block>
@@ -41,7 +31,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="4"></block>
+      <block type="movement_stop" id="3"></block>
     </next>
   </block>
 </xml>
