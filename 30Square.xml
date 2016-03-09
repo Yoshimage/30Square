@@ -1,12 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="1" inline="true" disabled="true" x="57" y="-23">
+  <block type="controls_repeat" id="1" inline="true" x="57" y="-23">
     <value name="TIMES">
       <block type="math_number" id="2">
         <field name="NUM">4</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="controls_repeat" id="20" inline="true" disabled="true">
+      <block type="controls_repeat" id="20" inline="true">
         <value name="TIMES">
           <block type="math_number" id="13">
             <field name="NUM">37450</field>
@@ -18,16 +18,16 @@
       </block>
     </statement>
   </block>
-  <block type="movement_right" id="4" x="106" y="161">
+  <block type="movement_right" id="4" disabled="true" x="106" y="161">
     <next>
-      <block type="robot_delay" id="5" inline="true">
+      <block type="robot_delay" id="5" inline="true" disabled="true">
         <value name="DELAY">
           <block type="math_number" id="6">
             <field name="NUM">1300</field>
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="3"></block>
+          <block type="movement_stop" id="3" disabled="true"></block>
         </next>
       </block>
     </next>
